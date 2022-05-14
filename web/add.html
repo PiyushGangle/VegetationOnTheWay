@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Administrator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form id="adminform" enctype="multipart/form-data" action="AddDataServlet" method="POST">
+            <table border="0">
+                <tbody>
+                    <tr>
+                        <td>Name: </td>
+                        <td> <input type="text" name="name" id="name" class="name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Category: </td>
+                        <td> <select name="category" id="category" class="category" >
+                                <option value="decoration">Decoration</option>
+                                <option value="fruit">Fruit</option>
+                                <option value="vegetable">Vegetable</option>
+                                <option value="tree" >Tree</option>
+                                <option value="medicinal"  >Medicinal</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Price: </td>
+                        <td><input type="text" name="price" id="price" class="price" /></td> 
+                    </tr>
+                    <tr>
+                        <td>Rent_Price: </td>
+                        <td><input type="text" name="rprice" id="rprice" class="rprice" /></td> 
+                    </tr>
+                    <tr>
+                        <td>Info: </td>
+                        <td> <textarea name="info" rows="5" cols="35" id="info" class="info">
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Availability: </td>
+                        <td><input type="text" name="available" id="available" class="available" /></td> 
+                    </tr>
+                    <tr>
+                        <td>Image: </td>
+                        <td><input type="file" name="image"  id="image" class="image"/></td> 
+                    </tr>
+                    <tr>
+                        <td><input type="reset" value="reset" style="margin-right: 10px;" id="reset"/></td> <td><input type="submit" value="submit" id="submit" /></td>  
+                    </tr>
+                </tbody>
+            </table>
+        </form><BR>
+    </body>
+</html>
+ 
+

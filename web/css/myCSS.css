@@ -1,0 +1,434 @@
+input[type=text], input[type=password]{
+    color:seagreen;
+    width: 89%;
+    background-color: burlywood;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Galada';
+}
+body{
+    margin: 0px;
+    background-image: url(../images/backgrouns.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.outerdiv{
+    height: 1000px;
+    width: 80%;
+    border: 1px black solid;
+    background-color:floralwhite;
+    margin: auto;
+    border-radius: 10px;
+
+}
+.headerdiv{
+    font-family: 'Amita';font-size: 22px; 
+    height: 100px;
+    width: 100%;
+    background-color:olivedrab;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    float: left -20px;
+
+}
+.logodiv{
+
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    margin-left: 30px;
+    float: left;
+}
+
+.logodiv a:hover img{
+    transform: rotate(360deg);
+    transition-duration: 2s;
+}
+.projecttitlediv{
+    float:right;
+    line-height:4;
+    margin-right: 550px;
+    color: cornsilk;
+    font-size: 35px;
+}
+.marqueediv{
+    border: 1px darkseagreen solid;
+    height: 20px;
+    width: 80%;
+    line-height: -65px;
+    font-size: 20;
+    position: absolute;
+    color: darkgoldenrod;
+    font-family: 'Galada';font-size: 15px;
+
+}
+
+.menubardiv{
+    float: left;
+    height: 40px;
+    width: 100%;
+    background-color:darkgoldenrod ;
+    position: relative;
+    margin-top: -18px;   
+}
+.menubardiv ul{
+    height: 40px;
+    width: 140px;
+    float: left;
+    text-align: center;
+    //border: 1px aqua solid;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    display: inline-block;  
+    font-size: 21px;
+    font-family: 'Galada';
+}
+
+.menubardiv ul li{
+    display: inline-block;
+    margin: 0px;
+}
+
+.menubardiv ul li a{
+    text-decoration: none;
+    width: 140px;
+    color: khaki;
+    display: inline-block;
+    line-height: 50px;
+}
+.menubardiv ul li:hover a{
+    display: block;
+    background-color: yellow;
+    height: 40px;
+    width: 140px;
+    color: brown;
+    border-radius: 10px;
+}
+
+.menubardiv ul li ul li{
+    display: none;
+}
+
+.menubardiv ul li:hover ul li {
+    display: block;
+    color:gold;
+}
+.menubardiv ul li a:hover{
+    color:limegreen;
+}
+
+.counterdiv{
+    font-family: Amita;
+    font-size: x-large;
+    color: aliceblue;
+    float: left;
+    margin-top: 5.3%;
+    height: 100px;
+    width: 80%;
+    margin-left: 0px;
+    background-color:olivedrab;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.counterimage{
+    position: absolute;
+    float: right;
+    margin-left: 35%;
+    line-height: 110px;
+}
+
+.loginlinkdiv{
+    position: absolute;
+    margin-left: 67%;
+    line-height: 60px;
+
+}
+
+.loginlinkdiv a{
+    position: absolute;
+    margin-left: 50%;
+    line-height: 60px;
+    cursor: pointer;
+    color: azure;
+}
+
+.logindiv{
+    font-family: Tillana;
+    height: 150px;
+    width: 300px;
+    background-color:activecaption;
+    border: chocolate dotted;
+    border-radius: 10px;
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    opacity: 90%;
+    z-index: 135654;
+    cursor: pointer;
+    color: azure;
+
+}
+
+.imageslidediv{
+    margin-top: -8%;
+}
+.imageslidediv img{
+    height: 250px;
+    width: 450px;
+    border-collapse: collapse;
+    margin-top: 4.9%;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.registrationdiv{
+
+    font-family: Tillana;
+    height: 290px;
+    width: 340px;
+    background-color:activecaption;
+    border: chocolate dotted;
+    border-radius: 10px;
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    opacity: 90%;
+    z-index: 135654;
+    cursor: pointer;
+}
+
+.plantsdiv{
+    margin-top: 0.5%;
+    width: 80%;
+    height: 50%;
+    //position: absolute;
+    overflow: scroll;
+    margin-left: 120px;
+    font-family: Tillana;
+    overflow-x: hidden;
+    display: block;
+}
+
+.decorationdiv{
+    margin-top: 0.5%;
+    width: 80%;
+    height: 50%;
+    //position: absolute;
+    overflow: scroll;
+    margin-left: 120px;
+    font-family: Tillana;
+    overflow-x: hidden;
+    display: none;
+}
+
+.fruitdiv{
+    margin-top: 0.5%;
+    width: 80%;
+    height: 50%;
+    //position: absolute;
+    overflow: scroll;
+    margin-left: 120px;
+    font-family: Tillana;
+    overflow-x: hidden;
+    display: none;
+}
+
+.vegetablediv{
+    margin-top: 0.5%;
+    width: 80%;
+    height: 50%;
+    //position: absolute;
+    overflow: scroll;
+    margin-left: 120px;
+    font-family: Tillana;
+    overflow-x: hidden;
+    display: none;
+}
+
+.treediv{
+    margin-top: 0.5%;
+    width: 80%;
+    height: 50%;
+    //position: absolute;
+    overflow: scroll;
+    margin-left: 120px;
+    font-family: Tillana;
+    overflow-x: hidden;
+    display: none;
+}
+
+.medicinaldiv{
+    margin-top: 0.5%;
+    width: 80%;
+    height: 50%;
+    //position: absolute;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-left: 120px;
+    font-family: Tillana;
+    display: none;
+}
+.spanname{
+    color: azure;
+    font-size: 19px;
+    margin-left: -10px;
+}
+.quantity{
+    font-family: Tillana;
+    height: 100px;
+    width: 100px;
+    background-color:activecaption;
+    border: chocolate dotted;
+    border-radius: 10px;
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    opacity: 90%;
+    z-index: 135654;
+    cursor: pointer;
+    color: azure;
+    display: none;
+}
+
+.headerdiv .searchdiv{
+    float: left;
+    position: absolute;
+    margin-left: 50%;
+    height: 100px;
+    width: 400px;
+    line-height: 150px;
+}
+
+
+ul{
+    list-style-type: none;
+}
+.socialdiv  {
+    position: fixed;
+    margin-top: 16%;
+    margin-left: 87.2%;
+    font-family: "Tillana";
+   
+}
+
+.socialdiv .Facebook a:hover img{
+    transform:translate(70px,0px);
+    transition-duration: 0.5s;
+}
+.socialdiv .Facebook a img{
+    position: fixed;
+    transition-duration: 0.5s;
+}
+.socialdiv .Facebook  p{
+    position: fixed;
+    visibility: hidden;
+     color:maroon;
+     font-weight: bolder;
+
+}
+.socialdiv .Facebook a:hover p{
+    margin-top: 0.62%;
+    position: fixed;
+    visibility: visible;
+}
+
+.socialdiv .Whatsapp a:hover img{
+    transform:translate(70px,0px);
+    transition-duration: 0.5s;
+}
+.socialdiv .Whatsapp a img{
+    margin-top: 40px;
+    position: fixed;
+    transition-duration: 0.5s;
+}
+.socialdiv .Whatsapp  p{
+    margin-top: 120%;
+    position: fixed;
+    visibility: hidden;
+     color:maroon;
+     font-weight: bolder;
+}
+.socialdiv .Whatsapp a:hover p{
+    position: absolute;
+    visibility: visible;
+}
+
+.socialdiv .Skype a:hover img{
+    transform:translate(70px,0px);
+    transition-duration: 0.5s;
+}
+.socialdiv .Skype a img{
+    margin-top: 80px;
+    position: fixed;
+    transition-duration: 0.5s;
+}
+.socialdiv .Skype  p{
+    margin-top: 220%;
+    position: fixed;
+    visibility: hidden;  
+     color:maroon;
+     font-weight: bolder;
+}
+.socialdiv .Skype a:hover p{
+    position: absolute;
+    visibility: visible;
+}
+
+.socialdiv .Google a:hover img{
+    transform:translate(70px,0px);
+    transition-duration: 0.5s;
+}
+.socialdiv .Google a img{
+    margin-top: 120px;
+    position: fixed;
+    transition-duration: 0.5s;
+}
+.socialdiv .Google  p{
+    margin-top: 320%;
+    position: fixed;
+    visibility: hidden;
+        color:maroon;
+     font-weight: bolder;
+}
+.socialdiv .Google a:hover p{
+    position: absolute;
+    visibility: visible;
+}
+
+.socialdiv .Instagram a:hover img{
+    transform:translate(70px,0px);
+    transition-duration: 0.5s;
+}
+.socialdiv .Instagram a img{
+    margin-top: 160px;
+    position: fixed;
+    transition-duration: 0.5s;
+}
+.socialdiv .Instagram  p{
+    margin-top: 420%;
+    position: fixed;
+    visibility: hidden;
+        color:maroon;
+     font-weight: bolder;
+}
+.socialdiv .Instagram a:hover p{
+    position: absolute;
+    visibility: visible;
+}
